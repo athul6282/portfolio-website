@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(135deg,
+      #ffffff 0%,
+      #fdf1ff 25%,
+      #f1f7ff 55%,
+      #e8fff6 80%,
+      #fff6e8 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 424px;
+  aspect-ratio: 1 / 1;
+  background-color: #f0f1f3;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about {
+  min-height: 550px;
+
+}
+
+.testimonial-box {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.text-purple {
+  color: #9b44ff;
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background: #f3e8ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #f1f1f5;
+  font-size: 1.3rem;
+  color: #6c63ff;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  background: #6c63ff;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.footer-custom {
+  background-color: #223047;
+  /* navy blue */
+  color: #d9e0e8;
+}
+
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  background-color: #a855f7;
+  /* purple circle */
+  font-size: 18px;
+}
